@@ -1,0 +1,56 @@
+body {
+	background-color: #7da870; 
+	margin: 0;
+}
+
+nav {
+	background-color: #fffff5;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	box-shadow: 0px 0px 20px gray;
+}
+
+.nav-left {
+	display: flex;
+}
+
+.nav-right {
+	display: flex;
+}
+
+.logo-container {
+	display: flex;
+	height: 80px;
+	content: url('../images/sierra-logo-clear.png')
+}
+
+.phonenumber {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.button-container {
+	display: flex;
+	align-items: stretch;
+}
+
+.nav-button {
+	display: flex;
+	align-items: center;
+	color: #174435;
+	text-decoration: none;
+	background-color: transparent;
+	margin: 0px 10px 0px 20px;
+}
+
+
+.nav-button:hover {
+	color: #7da870;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
